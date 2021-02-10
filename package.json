@@ -1,0 +1,36 @@
+{
+  "name": "@turingsecure/tailwind-preset",
+  "version": "0.1.0",
+  "description": "a tailwindcss configuration preset that is shared across all turingsecure projects",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel --presets env src -d ./",
+    "dev": "babel --presets env src -d ./ --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/turingsecure/tailwind-preset"
+  },
+  "keywords": [
+    "tailwindcss",
+    "tailwind",
+    "preset",
+    "turingsecure"
+  ],
+  "author": "Till Oberbeckmann <till@turingsecure.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/turingsecure/tailwind-preset/issues"
+  },
+  "homepage": "https://github.com/turingsecure/tailwind-preset",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  },
+  "dependencies": {
+    "@tailwindcss/aspect-ratio": "^0.2.0",
+    "@tailwindcss/forms": "^0.2.1",
+    "@tailwindcss/typography": "^0.4.0",
+    "tailwindcss": "^2.0.3"
+  }
+}
